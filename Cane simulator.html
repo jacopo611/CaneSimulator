@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<title>Cane Simulator</title>
+	</head>
+	<body>
+		<style type="text/css">
+			body{background-color:yellow;
+				border-style:solid;
+				border-width:5px;
+				border-color:red;}
+		</style>
+		<h1 align="center">CANE SIMULATOR</h1>
+	<marquee behavior=alternate><p>
+	</p></marquee>
+		<p align="center">
+	<button height="100" width="100" onclick="bau()">BAU, dimmi qualcosa</button>
+		</p>
+
+	<script type="text/javascript">
+		function bau(){
+			var x =''
+			var y =''
+			var y= promt('cosa vuoi dire a cane?')
+			var z = z[0]
+		if (x !=null){
+		if((x == 'bau') || (x == 'wof')){
+			alert('hai vinto un super bau')
+		}else if (x == ('')){
+			alert('ma sai scrivere???')
+		}else if(x == 'cibo'){
+			alert('cane ha chiesto dove sono i croccantini')
+		}else if(x == 'shish'){
+			alert('cane ha detto che gli pare di aver sentito la voce di renzi')
+		}else if(x == 'acqua'){
+			alert('cane ha chiesto quando si fa il bagno')
+		}else if(x =='pala'){
+			alert('dove? dove?')
+		}else if(x == 'what'){
+			alert('cane non ha capito, perché non parla inglese')
+		}else if(x == 'growlithe'){
+			alert('growlithe é un pokemon, ignorante')
+		}else if((x == 'perche') || (x == 'perché') || (x == 'perchE')){
+			alert('cane non lo sa')
+		}else if(x == 'lupo'){
+			alert('auuuuuuuuuuuuuuuuuuuuuuu')
+		}else if(x == 'food'){
+			alert('cane non capisce la lingua inglese ma é disposto a fare un eccezione e mangiare')
+		}else if(x == 'canide'){
+			alert('')
+		}else if((x == 'amici') || (x == 'amici?') || (x == 'amico') || (x == 'amico?')){
+			alert('no')
+		}else if(x == 'gara'){
+			gara()
+		}else if(x == 'bello'){
+			alert('al contrario di te')
+		}else if(x == 'carino'){
+			alert('cane ti ringrazia')
+		}else if(x == 'gatto'){
+			alert('ggggrrrrrrrr')
+		}else if(x == 'brutto'){
+			alert('come te')
+		}else if(x == 'vota'){
+			alert('lega nord,salvini e Ruspa')
+		}else if(x == 'code'){
+			alert(miao + '\n' + gara)
+		}else if(x == 'osso'){
+			alert('bau + uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu')
+		}else{
+			alert('tu gli hai detto' + y + 'e lui ti ha risposto bau')
+			}
+		}
+
+	}
+
+		function gara(){
+			var n = 0
+			var c = true
+			var g = confirm('facciamo a chi arriva prima a 999?')
+		while((g == true)&&(n < 999)&&(c == true)){
+			var c = confirm(n)
+			n+=1
+		}
+		if(c == false){
+			alert('cane si vergogna di te perché ti sei arreso')
+		}
+		if ((c == true)&&(n >= 1000)){
+			alert('complimenti ma cane ha finito quando eri ancora a ' + Math.round(Math.random() * 900))
+		}
+		}
+
+
+
+
+
+	</script>
+
+
+
+	</body>
+</html>
